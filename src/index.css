@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #26211d;
+    background-color: #faf7f2;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom subtle parchment texture & ornamental elements */
+.parchment-pattern {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#d5c8b5 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+.ornament-line {
+  background: linear-gradient(90deg, transparent, #b45309, #1b4332, #b45309, transparent);
+  height: 1px;
+}

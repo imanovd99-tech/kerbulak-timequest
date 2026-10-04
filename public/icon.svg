@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#0f291e" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="190" stroke="url(#gold)" stroke-width="8" fill="none" opacity="0.4" stroke-dasharray="16 8" />
+  <circle cx="256" cy="256" r="160" stroke="url(#gold)" stroke-width="4" fill="none" opacity="0.6" />
+  
+  <!-- Saka solar korgan motif & time compass -->
+  <path d="M256 96 L276 216 L396 236 L296 276 L336 396 L256 316 L176 396 L216 276 L116 236 L236 216 Z" fill="url(#gold)" opacity="0.25" />
+  
+  <!-- Steppe mound / Korgan silhouette -->
+  <path d="M128 350 C170 280 230 240 256 240 C282 240 342 280 384 350 Z" fill="url(#gold)" opacity="0.9" />
+  <path d="M176 350 C206 295 240 270 256 270 C272 270 306 295 336 350 Z" fill="#1b4332" />
+  
+  <!-- Golden Sun / Time symbol -->
+  <circle cx="256" cy="190" r="38" fill="url(#gold)" />
+  <circle cx="256" cy="190" r="28" fill="#1b4332" />
+  <circle cx="256" cy="190" r="16" fill="url(#gold)" />
+  
+  <!-- Portal lines -->
+  <line x1="256" y1="120" x2="256" y2="140" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" />
+  <line x1="256" y1="240" x2="256" y2="255" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" />
+  <line x1="186" y1="190" x2="206" y2="190" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" />
+  <line x1="306" y1="190" x2="326" y2="190" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" />
+
+  <text x="256" y="420" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#fef3c7" text-anchor="middle" letter-spacing="4">KERBULAK</text>
+  <text x="256" y="450" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#d97706" text-anchor="middle" letter-spacing="3">TIMEQUEST</text>
+</svg>

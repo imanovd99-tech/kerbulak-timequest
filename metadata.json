@@ -1,0 +1,6 @@
+{
+  "name": "KERBULAK TIMEQUEST",
+  "description": "Кербұлақтың цифрлық шежіресі: тарихи нысандар арқылы уақытқа интерактивті саяхат веб-ойыны.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

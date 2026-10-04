@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" style="background:#ffffff; font-family: sans-serif;">
+  <!-- Top decorative/header rule -->
+  <line x1="60" y1="25" x2="1140" y2="25" stroke="#8b3a2b" stroke-width="2.5" />
+
+  <!-- ==================== SUBFIGURE 1: TOP-LEFT ==================== -->
+  <g id="figure-1">
+    <!-- North Arrow -->
+    <g transform="translate(540, 130)">
+      <polygon points="0,-35 7,-5 0,0" fill="#111111" />
+      <polygon points="0,-35 -7,-5 0,0" fill="#666666" />
+      <polygon points="0,0 7,-5 0,35" fill="#cccccc" />
+      <polygon points="0,0 -7,-5 0,35" fill="#999999" />
+      <text x="-5" y="-42" font-size="16" font-weight="bold" fill="#000000">N</text>
+    </g>
+
+    <!-- Outer burial mound oval -->
+    <path d="M 180 180 C 140 260 210 390 350 410 C 470 425 550 350 535 250 C 520 150 420 85 300 90 C 220 95 195 130 180 180 Z" fill="none" stroke="#222222" stroke-width="2" />
+    <!-- Inner dashed oval pit -->
+    <path d="M 220 200 C 190 270 240 360 350 370 C 440 380 500 320 485 240 C 470 170 390 125 310 130 C 250 135 230 160 220 200 Z" fill="none" stroke="#222222" stroke-width="1.8" stroke-dasharray="6,4" />
+
+    <!-- Pit axis line with arrows -->
+    <line x1="95" y1="210" x2="560" y2="280" stroke="#222222" stroke-width="1.2" stroke-dasharray="8,4" />
+    <polygon points="95,210 145,200 135,220" fill="none" stroke="#222222" stroke-width="1.2" />
+    <polygon points="560,280 510,265 520,288" fill="none" stroke="#222222" stroke-width="1.2" />
+
+    <!-- Anatomical Skeleton Drawing -->
+    <g transform="translate(230, 180) rotate(8)">
+      <!-- Skull -->
+      <ellipse cx="25" cy="18" rx="14" ry="11" fill="#f5ede0" stroke="#b08a55" stroke-width="1.6" />
+      <circle cx="21" cy="15" r="2.5" fill="#805d33" />
+      <path d="M 33 22 L 39 20 L 37 25 Z" fill="#b08a55" />
+      <path d="M 28 26 Q 33 25 38 27" stroke="#b08a55" stroke-width="1.2" fill="none" />
+      <!-- Spine & Ribs -->
+      <path d="M 39 20 Q 95 24 150 25" stroke="#b08a55" stroke-width="2.5" fill="none" />
+      <path d="M 52 14 Q 57 26 52 38" stroke="#b08a55" stroke-width="1.4" fill="none" />
+      <path d="M 64 12 Q 70 26 64 40" stroke="#b08a55" stroke-width="1.4" fill="none" />
+      <path d="M 76 11 Q 82 26 76 41" stroke="#b08a55" stroke-width="1.4" fill="none" />
+      <path d="M 88 12 Q 94 26 88 39" stroke="#b08a55" stroke-width="1.4" fill="none" />
+      <path d="M 100 14 Q 105 26 100 37" stroke="#b08a55" stroke-width="1.4" fill="none" />
+      <!-- Arms -->
+      <path d="M 50 14 L 85 8 L 120 18" stroke="#b08a55" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M 50 26 L 85 34 L 115 28" stroke="#b08a55" stroke-width="2" fill="none" stroke-linecap="round" />
+      <!-- Pelvis -->
+      <path d="M 145 14 Q 160 10 168 25 Q 160 40 145 36 Z" fill="#f5ede0" stroke="#b08a55" stroke-width="1.6" />
+      <!-- Legs -->
+      <path d="M 165 18 L 220 20 L 270 22" stroke="#b08a55" stroke-width="2.2" fill="none" stroke-linecap="round" />
+      <path d="M 165 30 L 220 32 L 270 34" stroke="#b08a55" stroke-width="2.2" fill="none" stroke-linecap="round" />
+      <!-- Feet -->
+      <path d="M 270 22 L 282 20" stroke="#b08a55" stroke-width="2" stroke-linecap="round" />
+      <path d="M 270 34 L 282 32" stroke="#b08a55" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- Scale Bar: 1 m -->
+    <g transform="translate(105, 410)">
+      <line x1="0" y1="15" x2="160" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="0" y1="5" x2="0" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="160" y1="5" x2="160" y2="15" stroke="#111111" stroke-width="2" />
+      <text x="70" y="3" font-size="14" font-weight="bold" fill="#111111">1 м</text>
+    </g>
+
+    <text x="470" y="425" font-size="18" font-weight="bold" fill="#111111">1</text>
+  </g>
+
+  <!-- ==================== SUBFIGURE 2: TOP-RIGHT ==================== -->
+  <g id="figure-2" transform="translate(560, 50)">
+    <!-- Orientation marks W and E -->
+    <text x="3" y="145" font-size="13" font-family="sans-serif" font-weight="bold" fill="#111111">W</text>
+    <text x="548" y="132" font-size="13" font-family="sans-serif" font-weight="bold" fill="#111111">E</text>
+
+    <!-- Grass tufts along surface -->
+    <g stroke="#1e5422" stroke-width="1.5">
+      <path d="M 40 144 L 43 135 M 43 144 L 47 133 M 46 144 L 50 137" />
+      <path d="M 170 118 L 173 109 M 173 118 L 177 107 M 176 118 L 180 111" />
+      <path d="M 285 110 L 288 101 M 288 110 L 292 99 M 291 110 L 295 103" />
+      <path d="M 410 120 L 413 111 M 413 120 L 417 109 M 416 120 L 420 113" />
+      <path d="M 505 138 L 508 129 M 508 138 L 512 127 M 511 138 L 515 131" />
+    </g>
+
+    <!-- Mound stratigraphy: Top turf layer (green) -->
+    <path d="M 18 148 Q 280 98 542 136 L 542 144 Q 280 108 18 156 Z" fill="#699e3b" stroke="#333333" stroke-width="1" />
+
+    <!-- Brown subsoil layer with stones -->
+    <path d="M 18 156 Q 280 108 542 144 L 540 162 L 415 162 L 415 180 L 145 180 L 145 162 L 18 162 Z" fill="#c45d27" stroke="#333333" stroke-width="1" />
+    <!-- Stones in mound -->
+    <g fill="#433240" stroke="#222222" stroke-width="0.8">
+      <ellipse cx="180" cy="148" rx="16" ry="10" />
+      <ellipse cx="270" cy="142" rx="19" ry="11" />
+      <ellipse cx="380" cy="146" rx="17" ry="10" />
+      <ellipse cx="490" cy="155" rx="12" ry="8" />
+      <ellipse cx="70" cy="158" rx="14" ry="7" />
+    </g>
+
+    <!-- Terracotta / dark red layer -->
+    <rect x="145" y="162" width="270" height="26" fill="#aa3020" stroke="#333333" stroke-width="1" />
+
+    <!-- Deep rectangular pit cut into yellow bedrock -->
+    <rect x="195" y="188" width="180" height="150" fill="#f2ea38" stroke="#333333" stroke-width="1.4" />
+
+    <!-- Stone inclusions in yellow pit layer -->
+    <g fill="#433240" stroke="#222222" stroke-width="0.8">
+      <ellipse cx="210" cy="265" rx="8" ry="5" />
+      <ellipse cx="230" cy="262" rx="9" ry="6" />
+      <ellipse cx="255" cy="268" rx="7" ry="5" />
+      <ellipse cx="280" cy="262" rx="8" ry="6" />
+      <ellipse cx="310" cy="266" rx="10" ry="7" />
+      <ellipse cx="340" cy="263" rx="8" ry="5" />
+      <ellipse cx="360" cy="268" rx="9" ry="6" />
+      <ellipse cx="220" cy="290" rx="7" ry="5" />
+      <ellipse cx="245" cy="286" rx="8" ry="5" />
+      <ellipse cx="295" cy="288" rx="7" ry="4" />
+      <ellipse cx="330" cy="285" rx="9" ry="6" />
+    </g>
+
+    <!-- Bottom brown burial floor layer -->
+    <path d="M 195 285 L 375 285 L 375 338 L 195 338 Z" fill="#c45d27" stroke="#333333" stroke-width="1" />
+    <!-- Skeletal trace at bottom -->
+    <ellipse cx="230" cy="330" rx="6" ry="4" fill="#eedcc5" stroke="#997040" stroke-width="0.8" />
+    <line x1="236" y1="330" x2="350" y2="330" stroke="#997040" stroke-width="1.8" />
+
+    <!-- Hatching under ground boundary -->
+    <g stroke="#333333" stroke-width="0.8">
+      <line x1="18" y1="162" x2="145" y2="162" />
+      <line x1="415" y1="162" x2="540" y2="162" />
+      <!-- diagonal ground hatches -->
+      <path d="M 20 162 L 15 168 M 40 162 L 35 168 M 60 162 L 55 168 M 80 162 L 75 168 M 100 162 L 95 168 M 120 162 L 115 168 M 425 162 L 420 168 M 450 162 L 445 168 M 475 162 L 470 168 M 500 162 L 495 168 M 525 162 L 520 168" />
+      <!-- Pit bottom hatches -->
+      <line x1="195" y1="338" x2="375" y2="338" stroke-width="1.5" />
+      <path d="M 200 338 L 195 344 M 220 338 L 215 344 M 240 338 L 235 344 M 260 338 L 255 344 M 280 338 L 275 344 M 300 338 L 295 344 M 320 338 L 315 344 M 340 338 L 335 344 M 360 338 L 355 344 M 375 338 L 370 344" />
+    </g>
+
+    <!-- Legend: Шартты белгілер -->
+    <g transform="translate(15, 260)">
+      <text x="0" y="0" font-size="10" font-weight="bold" fill="#111111">Шартты белгілер:</text>
+      <!-- Row 1: 1, 4, 7 -->
+      <rect x="0" y="10" width="14" height="12" fill="#ffffff" stroke="#333333" stroke-width="0.8" />
+      <line x1="0" y1="10" x2="14" y2="22" stroke="#333333" stroke-width="0.6" />
+      <text x="17" y="20" font-size="9" fill="#111111">-1</text>
+
+      <rect x="36" y="10" width="14" height="12" fill="#c45d27" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="20" font-size="9" fill="#111111">-4</text>
+
+      <rect x="72" y="10" width="14" height="12" fill="#ffffff" stroke="#333333" stroke-width="0.8" />
+      <text x="89" y="20" font-size="9" fill="#111111">-7</text>
+
+      <!-- Row 2: 2, 5 -->
+      <rect x="0" y="26" width="14" height="12" fill="#699e3b" stroke="#333333" stroke-width="0.8" />
+      <text x="17" y="36" font-size="9" fill="#111111">-2</text>
+
+      <rect x="36" y="26" width="14" height="12" fill="#aa3020" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="36" font-size="9" fill="#111111">-5</text>
+
+      <!-- Row 3: 3, 6 -->
+      <rect x="0" y="42" width="14" height="12" fill="#ffffff" stroke="#333333" stroke-width="0.8" />
+      <circle cx="7" cy="48" r="3.5" fill="#433240" />
+      <text x="17" y="52" font-size="9" fill="#111111">-3</text>
+
+      <rect x="36" y="42" width="14" height="12" fill="#f2ea38" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="52" font-size="9" fill="#111111">-6</text>
+    </g>
+
+    <!-- Scale Bar: 1 m -->
+    <g transform="translate(425, 305)">
+      <line x1="0" y1="15" x2="80" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="0" y1="5" x2="0" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="80" y1="5" x2="80" y2="15" stroke="#111111" stroke-width="2" />
+      <text x="30" y="3" font-size="13" font-weight="bold" fill="#111111">1 м</text>
+    </g>
+
+    <text x="515" y="325" font-size="18" font-weight="bold" fill="#111111">2</text>
+  </g>
+
+  <!-- ==================== SUBFIGURE 3: BOTTOM-LEFT ==================== -->
+  <g id="figure-3" transform="translate(60, 440)">
+    <!-- North Arrow -->
+    <g transform="translate(480, 70)">
+      <polygon points="0,-35 7,-5 0,0" fill="#111111" />
+      <polygon points="0,-35 -7,-5 0,0" fill="#666666" />
+      <polygon points="0,0 7,-5 0,35" fill="#cccccc" />
+      <polygon points="0,0 -7,-5 0,35" fill="#999999" />
+      <text x="-5" y="-42" font-size="16" font-weight="bold" fill="#000000">N</text>
+    </g>
+
+    <!-- Cluster of stones in circular mound (grey stones) -->
+    <g fill="#939598" stroke="#333333" stroke-width="1.2">
+      <!-- Outer stone rings and scatter -->
+      <polygon points="65,190 85,180 95,200 80,215" />
+      <polygon points="110,160 135,150 145,175 125,185" />
+      <polygon points="150,130 175,120 190,140 165,155" />
+      <polygon points="195,100 225,90 235,115 210,130" />
+      <polygon points="240,75 270,68 285,92 255,105" />
+      <polygon points="290,65 320,60 330,85 305,95" />
+      <polygon points="340,70 375,65 385,90 355,105" />
+      <polygon points="390,85 420,80 430,105 405,115" />
+      <polygon points="415,120 440,115 450,140 425,150" />
+      <!-- Body of stones -->
+      <polygon points="220,135 260,125 275,160 235,175" />
+      <polygon points="280,125 325,120 335,155 295,165" />
+      <polygon points="340,130 385,125 395,160 355,170" />
+      <polygon points="160,185 200,175 210,210 175,225" />
+      <polygon points="215,190 255,180 265,220 225,230" />
+      <polygon points="270,185 315,175 325,215 285,225" />
+      <polygon points="330,185 375,180 385,215 345,225" />
+      <polygon points="120,230 160,220 170,255 135,265" />
+      <polygon points="175,240 215,230 225,265 185,280" />
+      <polygon points="230,245 270,235 280,270 240,285" />
+      <polygon points="285,240 330,230 340,270 295,280" />
+      <polygon points="85,280 120,270 130,305 95,315" />
+      <polygon points="135,290 175,280 185,315 145,330" />
+      <polygon points="190,300 230,290 240,325 200,340" />
+      <polygon points="245,295 285,285 295,320 255,335" />
+      <polygon points="300,290 340,280 350,315 310,330" />
+      <polygon points="150,340 185,335 195,365 160,375" />
+      <polygon points="205,345 245,340 255,370 215,380" />
+      <polygon points="260,340 295,335 305,365 270,375" />
+      <!-- Hatching on special stones -->
+      <line x1="288" y1="365" x2="295" y2="375" stroke="#222" stroke-width="1" />
+      <line x1="292" y1="363" x2="299" y2="373" stroke="#222" stroke-width="1" />
+      <line x1="296" y1="361" x2="303" y2="371" stroke="#222" stroke-width="1" />
+    </g>
+
+    <!-- Small detached stone group at top-right -->
+    <g transform="translate(425, 230)" fill="#939598" stroke="#333333" stroke-width="1.2">
+      <polygon points="15,0 35,-5 45,15 25,25" />
+      <polygon points="0,20 20,15 30,35 10,45" />
+      <polygon points="25,25 45,20 55,40 35,50" />
+      <polygon points="35,45 55,40 65,60 45,70" />
+      <!-- Hatch lines -->
+      <line x1="38" y1="23" x2="48" y2="33" stroke="#222" stroke-width="1" />
+      <line x1="42" y1="21" x2="52" y2="31" stroke="#222" stroke-width="1" />
+    </g>
+
+    <!-- Scale Bar: 1 m -->
+    <g transform="translate(40, 370)">
+      <line x1="0" y1="15" x2="160" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="0" y1="5" x2="0" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="160" y1="5" x2="160" y2="15" stroke="#111111" stroke-width="2" />
+      <text x="70" y="3" font-size="14" font-weight="bold" fill="#111111">1 м</text>
+    </g>
+
+    <text x="375" y="380" font-size="18" font-weight="bold" fill="#111111">3</text>
+  </g>
+
+  <!-- ==================== SUBFIGURE 4: BOTTOM-RIGHT ==================== -->
+  <g id="figure-4" transform="translate(560, 480)">
+    <!-- Orientation marks E and W -->
+    <text x="3" y="125" font-size="13" font-family="sans-serif" font-weight="bold" fill="#111111">E</text>
+    <text x="548" y="112" font-size="13" font-family="sans-serif" font-weight="bold" fill="#111111">W</text>
+
+    <!-- Grass tufts -->
+    <g stroke="#1e5422" stroke-width="1.5">
+      <path d="M 60 120 L 63 111 M 63 120 L 67 109 M 66 120 L 70 113" />
+      <path d="M 180 102 L 183 93 M 183 102 L 187 91 M 186 102 L 190 95" />
+      <path d="M 330 92 L 333 83 M 333 92 L 337 81 M 336 92 L 340 85" />
+      <path d="M 440 105 L 443 96 M 443 105 L 447 94 M 446 105 L 450 98" />
+    </g>
+
+    <!-- Turf surface layer (green) -->
+    <path d="M 18 126 Q 300 80 542 118 L 542 126 Q 300 88 18 134 Z" fill="#699e3b" stroke="#333333" stroke-width="1" />
+
+    <!-- Yellow mound soil layer -->
+    <path d="M 18 134 Q 300 88 542 126 L 540 138 L 415 138 L 415 145 L 175 145 L 175 138 L 18 138 Z" fill="#f2ea38" stroke="#333333" stroke-width="1" />
+
+    <!-- Stones in mound -->
+    <g fill="#433240" stroke="#222222" stroke-width="0.8">
+      <ellipse cx="200" cy="120" rx="14" ry="8" />
+      <ellipse cx="250" cy="115" rx="12" ry="7" />
+      <ellipse cx="320" cy="112" rx="15" ry="9" />
+      <ellipse cx="400" cy="118" rx="16" ry="9" />
+      <ellipse cx="480" cy="125" rx="13" ry="7" />
+      <ellipse cx="100" cy="130" rx="14" ry="8" />
+    </g>
+
+    <!-- Deep vertical burial shaft -->
+    <!-- Left fill: Reddish-brown -->
+    <path d="M 215 145 L 285 145 Q 315 220 230 290 L 215 290 Z" fill="#c45d27" stroke="#333333" stroke-width="1" />
+    <!-- Right fill: Bright yellow -->
+    <path d="M 285 145 L 375 145 L 375 290 L 230 290 Q 315 220 285 145 Z" fill="#f2ea38" stroke="#333333" stroke-width="1" />
+
+    <!-- Bottom stones cluster in shaft -->
+    <g fill="#433240" stroke="#222222" stroke-width="0.8">
+      <ellipse cx="230" cy="275" rx="10" ry="7" />
+      <ellipse cx="250" cy="270" rx="9" ry="6" />
+      <ellipse cx="275" cy="265" rx="11" ry="8" />
+      <ellipse cx="300" cy="272" rx="10" ry="7" />
+      <ellipse cx="325" cy="275" rx="9" ry="6" />
+      <ellipse cx="240" cy="255" rx="8" ry="6" />
+      <ellipse cx="260" cy="250" rx="9" ry="6" />
+      <ellipse cx="285" cy="252" rx="10" ry="7" />
+      <ellipse cx="310" cy="255" rx="8" ry="5" />
+    </g>
+
+    <!-- Pit boundary hatches -->
+    <g stroke="#333333" stroke-width="0.8">
+      <line x1="18" y1="138" x2="175" y2="138" />
+      <line x1="415" y1="138" x2="540" y2="138" />
+      <path d="M 20 138 L 15 144 M 40 138 L 35 144 M 60 138 L 55 144 M 80 138 L 75 144 M 100 138 L 95 144 M 120 138 L 115 144 M 425 138 L 420 144 M 450 138 L 445 144 M 475 138 L 470 144 M 500 138 L 495 144 M 525 138 L 520 144" />
+      <!-- Pit bottom line and hatches -->
+      <line x1="215" y1="290" x2="375" y2="290" stroke-width="1.5" />
+      <path d="M 220 290 L 215 296 M 240 290 L 235 296 M 260 290 L 255 296 M 280 290 L 275 296 M 300 290 L 295 296 M 320 290 L 315 296 M 340 290 L 335 296 M 360 290 L 355 296 M 375 290 L 370 296" />
+    </g>
+
+    <!-- Legend: Шартты белгілер -->
+    <g transform="translate(15, 210)">
+      <text x="0" y="0" font-size="10" font-weight="bold" fill="#111111">Шартты белгілер:</text>
+      <!-- Row 1: 1, 4 -->
+      <rect x="0" y="10" width="14" height="12" fill="#ffffff" stroke="#333333" stroke-width="0.8" />
+      <line x1="0" y1="10" x2="14" y2="22" stroke="#333333" stroke-width="0.6" />
+      <text x="17" y="20" font-size="9" fill="#111111">-1</text>
+
+      <rect x="36" y="10" width="14" height="12" fill="#c45d27" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="20" font-size="9" fill="#111111">-4</text>
+
+      <!-- Row 2: 2, 5 -->
+      <rect x="0" y="26" width="14" height="12" fill="#699e3b" stroke="#333333" stroke-width="0.8" />
+      <text x="17" y="36" font-size="9" fill="#111111">-2</text>
+
+      <rect x="36" y="26" width="14" height="12" fill="#aa3020" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="36" font-size="9" fill="#111111">-5</text>
+
+      <!-- Row 3: 3, 6 -->
+      <rect x="0" y="42" width="14" height="12" fill="#ffffff" stroke="#333333" stroke-width="0.8" />
+      <circle cx="7" cy="48" r="3.5" fill="#433240" />
+      <text x="17" y="52" font-size="9" fill="#111111">-3</text>
+
+      <rect x="36" y="42" width="14" height="12" fill="#f2ea38" stroke="#333333" stroke-width="0.8" />
+      <text x="53" y="52" font-size="9" fill="#111111">-6</text>
+    </g>
+
+    <!-- Scale Bar: 1 m -->
+    <g transform="translate(435, 255)">
+      <line x1="0" y1="15" x2="70" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="0" y1="5" x2="0" y2="15" stroke="#111111" stroke-width="2" />
+      <line x1="70" y1="5" x2="70" y2="15" stroke="#111111" stroke-width="2" />
+      <text x="25" y="3" font-size="13" font-weight="bold" fill="#111111">1 м</text>
+    </g>
+
+    <text x="515" y="275" font-size="18" font-weight="bold" fill="#111111">4</text>
+  </g>
+</svg>
